@@ -1,0 +1,23 @@
+.App a{color: gray}
+.App a:hover{ text-decoration: none; color:black;}
+.App{
+    height: 100vh;
+    background: url('./components/Pages/Css/bg.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.mainContainer{
+    height: 80vh;
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    .App {
+    background-image: url('./components/Pages/Css/bgMobile.png');
+    }
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}

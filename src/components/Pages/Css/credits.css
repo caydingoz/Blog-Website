@@ -1,0 +1,25 @@
+.credits{
+    height: 5vh;
+}
+.designedBy{
+    position: absolute;
+    bottom: 20px;
+}
+.photoBy{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+.photoBy a{
+    color: white!important;
+}
+
+@media only screen and (max-width: 600px) {
+    .designedBy{
+        font-size: 10px;
+    }
+    .photoBy{
+        font-size: 10px;
+        right: 10px;
+    }
+}

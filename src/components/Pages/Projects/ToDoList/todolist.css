@@ -1,0 +1,94 @@
+.todoContainer{
+    width: 100%;
+    border: 10px solid rgb(180, 178, 176)!important;
+    border-radius: 20px!important;
+    background-color: rgb(224, 223, 219);
+    height: 400px;
+}
+.list-group{
+    background: transparent!important;
+}
+.list-group-item{
+    background: transparent!important;
+}
+.list-group-item button{
+    width: 25px!important;
+    height: 25px!important;
+    line-height: 10px;
+}
+.addTaskContainer{
+    height: 60px;
+    border: 1px solid rgb(230, 137, 30);
+    border-radius: 30px ;
+    background-color: rgb(236, 247, 137);
+    width: 90%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transition: .4s ease-in-out;
+}
+.addTaskContainer button{
+    float: right;
+    width: 58px;
+    height: 58px;
+    background-color: rgb(233, 173, 42);
+    border: 2px solid rgb(230, 137, 30)!important;
+    color: white;
+}
+.addTaskContainer button:hover{
+    color: rgb(233, 231, 231);
+}
+/* addJob SAYFASI */
+.addJobContainer{
+    position: absolute;
+    width: 80%;
+    margin-left: 12px;
+}
+.addJobContainer button{
+    padding: 0;
+    margin-left: 5px;
+    float: left;
+    margin-top: 10px;
+    width: 12%;
+    height: 40px;
+    background-color: rgb(176, 233, 42);
+    border: 2px solid rgb(102, 206, 5)!important;
+    border-radius: 5px 20px 20px 5px ;
+    color: white;
+}
+.inputBar{
+    float: left;
+    height: 40px;
+    margin-top: 10px;
+    width: 75%;
+    padding-left: 10px;
+    background-color: rgb(243, 229, 192);
+    border-radius: 20px 5px 5px 20px;
+}
+/* UpdateJob SAYFASI */
+.updateJobContainer{
+    margin-top: 5px;
+    background-color: rgb(219, 241, 138);
+    border: 2px solid rgb(133, 170, 1);
+    border-radius: 0 20px;
+    line-height: 40px;
+}
+.updateJobContainer input[type=text]{
+    float: left;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 75%;
+    padding-left: 10px;
+    background-color: rgb(243, 229, 192);
+    border-radius: 0px 5px 5px 10px;
+}
+.updateJobContainer button{
+    padding: 0;
+    width: 50px!important;
+    margin-left: 10px;
+    background-color: rgb(176, 233, 42);
+    border: 2px solid rgb(102, 206, 5)!important;
+    border-radius: 10px;
+    color: white;
+}

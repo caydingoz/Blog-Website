@@ -1,0 +1,44 @@
+.Navbar{
+    height: 15vh;
+    background-color: transparent!important;
+}
+.Item{
+    font-weight: bold;
+    color: white!important;
+}
+.Item2{
+    font-weight: bold;
+    color: white!important;
+}
+.Item2:hover{
+    color: white!important;
+}
+.Item:hover{
+    border-bottom: 4px solid coral;
+    color: white!important;
+    margin-bottom: -5px;
+    transition: border 0.3s linear;
+}
+.header {
+    font-size: 25px!important;
+    font-weight: bold;
+    color: white!important;
+}
+.header:hover {
+    color: white!important;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+        flex-direction: row!important;
+        font-size: 14px!important;
+    }
+    .Item{
+        padding: 6px!important;
+    }
+    .Item:hover{
+        border-bottom: 2px solid coral;
+    }
+    .header {
+        font-size: 20px!important;
+    }
+}
